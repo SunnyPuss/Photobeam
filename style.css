@@ -1,0 +1,30 @@
+/*Fonts*/
+
+@font-face {
+    font-family: Lobster1.4;
+    src: local();
+}
+
+
+body {
+    margin: 0px;
+    max-width: 100%;
+}
+
+header {
+    
+    max-height: 118px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e5e5e5;
+    border-bottom: 2px #cccccc;
+}
+
+.header-logo {
+    font-size: 49px;
+    font-family: Lobster;
+}
+
+.header-orange-text {
+    color: #ff7700;
+}
